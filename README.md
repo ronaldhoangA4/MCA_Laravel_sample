@@ -13,6 +13,7 @@ The project include:
 - Back-end infrastrucure with NodeJS express
 - Front-end app with ReactJS
 - API Documentation
+
 Components or aspects excluded from this project are:
 - End-to-end testing - available through MCA Front-end Testing framework https://github.com/ronaldhoangA4/MCA_Frontend_Testing.git
 - UX/UI aspects
