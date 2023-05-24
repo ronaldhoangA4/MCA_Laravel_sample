@@ -1,0 +1,288 @@
+header, footer {
+  background-color: black;
+  padding: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: #fff;
+}
+
+footer {
+  font-size: small;
+  text-align: right;
+}
+
+footer span {
+  position: absolute;
+  left: 150px;
+}
+
+footer .link {
+  margin: 1em;
+}
+
+footer .link:hover {
+  color: orangered;
+  margin: 1em;
+}
+
+h1 {
+  padding-left: 150px;
+}
+
+button img {
+  width: 100%;
+  height: auto;
+}
+
+li button {
+  position: absolute;
+  right: 5%;
+  width: 1.5em;
+  height: 1.5em;
+  background-color: white;
+  border: transparent;
+}
+
+form {
+  text-align: center;
+  line-height: 2em;
+}
+
+label {
+  display: block;
+  margin-top: 0.5em;
+}
+
+input, textarea {
+  display: block;
+  color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:1em;
+
+  margin: auto;
+  padding: 0.5em;
+}
+
+input[type='submit'] {
+  width: 20%;
+
+  background-color: darkorange;
+  padding: 0.8em 0em;
+
+  margin-top: 1em;
+}
+
+input[type='submit']:hover {
+  background-color: orangered;
+  color: white;
+}
+
+.App {
+  background-color: lightgrey;
+  text-align: left;
+}
+
+.logo {
+  width: 10%;
+  height: auto;
+}
+
+.channel {
+  margin: 0.5em;
+  width: 5%;
+  height: auto;
+}
+
+.navbar {
+  position: relative;
+  }
+
+.menu-items {
+  list-style: none;
+  width: 15%;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  right: 0%;
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+  
+.menu-items li, .active {
+  padding: 10px;
+}
+  
+.menu-items li:hover {
+  background-color: #555;
+}
+  
+.cart-button, .menu-toggle {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: x-large;
+  cursor: pointer;
+  position: absolute;
+  right: 15%;
+  bottom: 1%;
+}
+
+.cart-button:hover, .menu-toggle:hover {
+  text-decoration: underline;
+}
+
+.menu-toggle {
+  right: 2%;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link.active {
+  font-weight: bold;
+}
+
+.box {
+  background-color: orange;
+
+  width: 60%;
+  margin: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 2em 3em;
+}
+
+.odd {
+  text-align: right;
+}
+.odd button {
+  margin-left: auto;
+}
+
+.box h1 {
+  padding: 0;
+}
+
+.box button, .flex-item button {
+  width: 40%;
+
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 0.5em 1em;
+  border: solid 3px black;
+  background-color: darkorange;
+  color: black;
+  font-size: large;
+}
+
+.box a {
+  color: black;
+  font-size: large;
+  text-decoration: none;
+}
+
+.box button:hover, .box a:hover, .flex-item button:hover {
+  background-color: orangered;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+  font-size: xx-large;
+}
+
+.hide, .hide:hover, .box .hide, .box .hide:hover {
+  color:transparent;
+}
+
+.checkout {
+  display:table;
+  width:100%;
+}
+
+.row {
+  display:table-row;
+}
+
+.headrow, th {
+  background-color: orangered;
+  padding:0.5em;
+  border: solid 3px black;
+
+  color:black;
+  font-size:large;
+  font-weight: bold;
+}
+
+.row div, td {
+  display:table-cell;
+  color: black;
+  font-size: 1em;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  background-color: darkorange;
+  border: solid 3px black;
+  padding:0.5em;
+}
+
+.horizontal-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1.5em;
+}
+
+.flex-item {
+  flex: 1;
+  margin: 0.5em;
+}
+
+.flex-item button {
+  width: 60%;
+}
+
+.vertical-flex {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow-y: auto;
+  max-height: 360px; 
+}
+
+.vertical-flex label {
+  display: inline;
+  margin-left: 0.1em;
+}
+
+.video-item {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.video-item img {
+  width: 80px;
+  height: auto;
+  display: inline;
+}
+
+.playing {
+  background-color: #777;
+}
+
+.response {
+  color:red;
+  margin:0em;
+}

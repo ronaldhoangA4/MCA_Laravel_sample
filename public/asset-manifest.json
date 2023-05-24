@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e62dc432.css",
+    "main.js": "/static/js/main.864e33a0.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/facebook.png": "/static/media/facebook.2ef3c95ffb80dfc8e2d6.png",
+    "static/media/instagram.png": "/static/media/instagram.ee4bb8aea6a58fb738ea.png",
+    "static/media/Vintage-MCA-Motorcycle-T-Shirt.jpg": "/static/media/Vintage-MCA-Motorcycle-T-Shirt.0b94fef78890506dd8f9.jpg",
+    "static/media/MCA-Most-Diverse-Community-T-Shirt.jpg": "/static/media/MCA-Most-Diverse-Community-T-Shirt.3b951df60323d1593e07.jpg",
+    "static/media/MCA-Wheel-Cap.jpg": "/static/media/MCA-Wheel-Cap.83cb4cf9985c365d5506.jpg",
+    "static/media/Liberty-Walk-GTR-Cap.jpg": "/static/media/Liberty-Walk-GTR-Cap.fe02a8d88a91b3c6a75b.jpg",
+    "static/media/tiktok.png": "/static/media/tiktok.4aa355409ef97a5c58e3.png",
+    "index.html": "/index.html",
+    "main.e62dc432.css.map": "/static/css/main.e62dc432.css.map",
+    "main.864e33a0.js.map": "/static/js/main.864e33a0.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e62dc432.css",
+    "static/js/main.864e33a0.js"
+  ]
+}
