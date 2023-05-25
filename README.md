@@ -40,6 +40,10 @@ The list below outline requirements for executing the tests:
 ### Installation
 After cloning project to your computer from GitHub, open terminal and navigate into the project's directory.
 
+Install all required dependencies from NPM `npm install`
+
+Install all required dependencies from Composer `composer install`
+
 ### Execution
 Commands are to be executed on terminal, navigated into the project's directory.
 
